@@ -33,17 +33,7 @@
 			<version>3.1.0</version>
 			<scope>provided</scope>
 		</dependency>
-		<dependency>
-		    <groupId>org.apache.tomcat.maven</groupId>
-		    <artifactId>tomcat8-maven-plugin</artifactId>
-		    <version>3.0-r1756463</version>
-			<configuration>
-			<url>http://localhost:8080/manager/text</url>
-			<server>TomcatServer</server>
-			<path>/TestWebapp</path>
-		</configuration>
-		</dependency>
-
+		
 		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
